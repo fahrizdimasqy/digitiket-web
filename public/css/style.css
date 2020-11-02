@@ -1,0 +1,521 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+/* header */
+#header-web {
+    /* position: relative; */
+    position: fixed;
+    background: #fff;
+    box-shadow: 0 1px 4px 2px rgba(0, 0, 0, .15);
+    border-top: 1px solid #eee;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    padding-top: 10px;
+}
+
+
+
+#form-search input {
+    width: 100%;
+    box-shadow: 0 1px 4px 1px rgba(0, 0, 0, .1);
+    border: solid 1px #eee;
+    border-radius: 3px;
+    padding: 13px 10px 13px 40px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    outline: none;
+}
+
+#form-search input[type='text']:focus,
+.clickdform textarea:focus,
+.clickdform select:focus {
+    border: 2px solid #bc67f0 !important;
+    background: none !important;
+}
+
+#form-search .input-icon {
+    position: absolute;
+    left: 5px;
+    top: 0;
+    bottom: 0;
+    margin: auto 5px;
+    z-index: 5;
+}
+
+#form-search .input-with-icon {
+    position: relative;
+    margin-top: 15px;
+}
+
+.btn-login {
+    color: #bc67f0;
+    background-color: rgba(112, 20, 169, .15);
+    margin-right: 10%;
+    /* border-color: #007bff; */
+}
+
+.btn-login:hover {
+    background-color: #bc67f0;
+    color: #fff;
+}
+
+#menu-utama {
+    margin-top: 25px;
+    border-top: 1px solid #eee;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#menu-utama .nav-link {
+    border-left: 1px solid #eee;
+    padding: 13px 30px;
+    transition: background-color .25s ease;
+}
+
+#menu-utama .nav-link:hover {
+    background-color: rgba(112, 20, 169, .15);
+}
+
+.nav-icon {
+    margin-right: 10px;
+}
+
+#menu-utama .nav-link.btn-buat-tiket {
+    color: white;
+    background-color: #7014A9;
+    border: 1px solid #7014A9;
+}
+
+#menu-utama .nav-link.btn-buat-tiket:hover {
+    color: white;
+    background-color: #3d055f;
+}
+
+.badge-primary {
+    color: #fff;
+    background-color: #7014A9;
+}
+
+img,
+svg {
+    vertical-align: middle;
+}
+
+img {
+    border-style: none;
+}
+
+/* akhir header */
+
+
+/* banner */
+#banner {
+    /* margin-top: 2%; */
+    margin-top: 13.9%;
+}
+
+/* akhir banner */
+
+/* event */
+#event .card .rekomendasi-card {
+    width: 547px;
+}
+
+#event .card.rekomendasi-card h5 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #2D2D2D;
+}
+
+#event .card.rekomendasi-card p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+    color: #595757;
+}
+
+#event .card.rekomendasi-card li {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+/* akhir event */
+
+
+/* atur */
+#atur .jumbotron h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+/* akhir atur */
+
+/* pemesanan */
+#pemesanan .card .table {
+    background: #FFFFFF;
+    border: 1px solid #F4F4F4;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    border: none;
+}
+
+#pemesanan .form-check-label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+#pemesanan .form-check-label span {
+    color: #CB367E;
+}
+
+/* bottom */
+#bottom h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+#bottom p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 191.5%;
+    letter-spacing: 0.04em;
+    color: #373737;
+}
+
+/* akhir bottom */
+
+
+
+/* desktop version */
+@media (min-width: 992px) {
+
+    #event .text-tranding {
+        margin-left: 8.5%;
+    }
+
+    #event .card-tranding-carousel .col-md-5 {
+        margin: 0 5% 3% 0;
+        padding: 0;
+    }
+
+    #event .card-tranding-carousel .card {
+        width: 106%;
+        margin-left: 50px;
+    }
+
+
+    #piknik-asyik .card,
+    #baru-apanih .card,
+    #new-normal .card {
+        width: 108%;
+    }
+
+    /* pemesanan */
+    #pemesanan {
+        margin-top: 15%;
+    }
+
+    #pemesanan .card .table {
+        height: 44px;
+    }
+
+    #pemesanan .card td img {
+        margin-top: 15%;
+    }
+
+    #pemesanan .card td p {
+        margin-left: -25%;
+        margin-top: 4%;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.04em;
+        color: #0F93BD;
+    }
+
+    #pemesanan form {
+        background: #F6F6F6;
+        border: 1px solid #F4F4F4;
+        box-sizing: border-box;
+        border-radius: 3px;
+        padding: 10px;
+    }
+
+    #pemesanan .card .card-title {
+        margin-left: 25%;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.04em;
+    }
+
+    #pemesanan .card .card-img {
+        margin: 12% 0 0 10%;
+        width: 191px;
+        height: 127px;
+        object-fit: cover;
+        /* width: 90%; */
+    }
+
+    #pemesanan .icon-kalender {
+        margin-left: 90%;
+    }
+
+    #pemesanan .card-text.jadwal {
+        margin-left: -2%;
+        margin-top: 4%;
+    }
+
+    #pemesanan .alert-text {
+        margin-top: 3%;
+        margin-left: 27%;
+    }
+
+
+    /* bottom */
+    #bottom .container .kolaborasi-img {
+        margin-left: -1%;
+    }
+
+    #bottom .container img {
+        margin-left: -10%;
+    }
+
+
+    /* akhir piknik asyik */
+}
+
+
+/* mobile version */
+@media screen and (max-width: 576px) {
+
+    .btn-login {
+        margin-top: 3%;
+    }
+
+    #banner {
+        margin-top: 25%;
+    }
+
+    #event .card-tranding-carousel .col-md-5 {
+        margin-bottom: 5%;
+    }
+
+    #atur .jumbotron img {
+        width: 100%;
+    }
+
+    #piknik-asyik .card,
+    #baru-apanih .card,
+    #new-normal .card {
+        margin-bottom: 20px;
+    }
+
+    /* pemesanan */
+    #pemesanan {
+        margin-top: 35%;
+    }
+
+    #pemesanan .card .table {
+        margin-top: 5%;
+    }
+
+    #pemesanan .card td img {
+        margin-top: 35%;
+    }
+
+    #pemesanan .card td p {
+        margin-left: -5%;
+        margin-top: 10%;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.04em;
+        color: #0F93BD;
+    }
+
+    #pemesanan form {
+        background: #F6F6F6;
+        border: 1px solid #F4F4F4;
+        box-sizing: border-box;
+        border-radius: 3px;
+        padding: 10px;
+    }
+
+    #pemesanan .card-text.jadwal {
+        margin: -8% 0 0 15%;
+    }
+
+    #pemesanan .alert-text {
+        margin-top: 4%;
+        margin-left: 5%;
+    }
+
+    #bottom input {
+        margin-bottom: 15px;
+    }
+
+    #bottom .container .kolaborasi-img {
+        margin-left: -1%;
+    }
+
+    #bottom .container img {
+        margin-left: -8%;
+    }
+
+    footer img {
+        padding-top: 15px;
+    }
+}
+
+/* akhir mobile version */
+
+
+
+
+
+
+/* utilities */
+.digitiket-font {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height */
+
+    letter-spacing: 0.04em;
+
+    color: #000000;
+}
+
+.digitiket-font span {
+    color: #d14e8d;
+    text-decoration: none;
+}
+
+.card-link {
+    list-style-type: none;
+    color: black;
+}
+
+.card .card-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    color: #2D2D2D;
+
+}
+
+.card p {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 142.5%;
+    letter-spacing: 0.04em;
+    color: #413F3F;
+}
+
+.card li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.table-violet,
+.table-violet>td,
+.table-violet>th {
+    background-color: #EADCF2;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #7014A9;
+    border-color: #7014A9;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #6014A9;
+    border-color: #7014A9;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #bc67f0;
+    border-color: #bc67f0;
+    z-index: 0;
+}
+
+.btn-secondary {
+    color: #bc67f0;
+    background-color: rgba(112, 20, 169, .15);
+    border-color: rgba(112, 20, 169, .15);
+}
+
+.btn-secondary:hover {
+    background-color: #bc67f0;
+    color: #fff;
+    border-color: rgba(112, 20, 169, .15);
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show>.btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #bc67f0;
+    border-color: #bc67f0;
+    z-index: 0;
+}
+
+
+.alert-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    color: #CB367E !important;
+}
+
+.pd-telephone-input input {
+    padding-left: 70px !important;
+}
+
+/* akhir utilities */
